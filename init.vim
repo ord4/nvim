@@ -1,7 +1,7 @@
 "Colorscheme settings
-set t_Co=256
+set termguicolors
 set background=dark
-colorscheme molokai
+colorscheme afterglow
 set nowrap
 set linebreak
 
@@ -9,11 +9,13 @@ set linebreak
 filetype plugin indent on
 syntax on
 set number
-set showmatch
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set textwidth=79
 set wrapmargin=0
 
-"Autocompletion
+"Plug Ins
+call plug#begin('~/.config/nvim/plugged')
+Plug 'https://github.com/vim-syntastic/syntastic.git'
+call plug#end()
