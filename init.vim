@@ -18,4 +18,7 @@ set wrapmargin=0
 "Plug Ins
 call plug#begin('~/.config/nvim/plugged')
 Plug 'https://github.com/vim-syntastic/syntastic.git'
+Plug 'https://github.com/jiangmiao/auto-pairs.git'
+Plug 'https://github.com/valloric/youcompleteme.git' "How to install everything?
 call plug#end()
+
