@@ -2,7 +2,7 @@
 set termguicolors
 set background=dark
 colorscheme afterglow
-set nowrap
+set wrap
 set linebreak
 
 "Formatting
@@ -12,7 +12,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set textwidth=79
+"set textwidth=79
 set wrapmargin=0
 
 "Plug Ins
