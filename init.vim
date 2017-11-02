@@ -12,7 +12,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set wrapmargin=2
+set wrapmargin=0
 set wrap
 set linebreak
 set textwidth=66
