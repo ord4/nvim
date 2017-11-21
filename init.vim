@@ -12,10 +12,10 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set wrapmargin=0
+set wrapmargin=2
 set wrap
 set linebreak
-set textwidth=66
+"set textwidth=79
 
 "Plug Ins
 "They get installed to the dir plugged/
