@@ -16,7 +16,7 @@ set wrapmargin=2
 set wrap
 set linebreak
 set textwidth=69
-set noignorecase
+set ignorecase
 
 "Plug Ins
 "They get installed to the dir plugged/
