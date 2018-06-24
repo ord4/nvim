@@ -1,9 +1,10 @@
-"=====Colorscheme====="
+"=====Formatting====="
 set termguicolors
 set background=dark
 colorscheme afterglow
 set wrap
 set linebreak
+set cursorline
 
 "=====Formatting====="
 filetype indent on
@@ -14,6 +15,7 @@ set number
 set tabstop=4 "Read tabs as 4 spaces
 set softtabstop=4 "Write tabs as 4 spaces
 set expandtab "Turn tabs into spaces
+set autoindent
 
 set shiftwidth=4
 set wrapmargin=2
@@ -35,4 +37,8 @@ Plug 'https://github.com/Valloric/YouCompleteMe.git'
 call plug#end()
 
 "=====Key Bindings====="
-inoremap jk <esc> 
+" Capitalize previously typed word and resume insertion
+"imap <c-u> <esc>bveUea
+" Capitalize the word whose first letter is under your cursor
+"nmap <c-u> veU
+" Look more into the nonrecursive mapping
