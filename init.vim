@@ -26,13 +26,13 @@ set ignorecase
 set incsearch
 
 "=====Plug-ins====="
-call plug#begin('~/.config/nvim/plugged')
-Plug 'https://github.com/jiangmiao/auto-pairs.git'
-Plug 'https://github.com/terryma/vim-multiple-cursors.git'
-Plug 'https://github.com/junegunn/fzf'
-Plug 'https://github.com/w0rp/ale'
-Plug 'https://github.com/Valloric/YouCompleteMe.git'
-call plug#end()
+"call plug#begin('~/.config/nvim/plugged')
+"Plug 'https://github.com/jiangmiao/auto-pairs.git'
+"Plug 'https://github.com/terryma/vim-multiple-cursors.git'
+"Plug 'https://github.com/junegunn/fzf'
+"Plug 'https://github.com/w0rp/ale'
+"Plug 'https://github.com/Valloric/YouCompleteMe.git'
+"call plug#end()
 
 "=====Key Bindings====="
 " Capitalization of entire words
