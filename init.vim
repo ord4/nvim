@@ -5,8 +5,6 @@ colorscheme afterglow
 set wrap
 set linebreak
 set cursorline
-
-"=====Formatting====="
 filetype indent on
 syntax on
 set number
@@ -37,8 +35,16 @@ Plug 'https://github.com/Valloric/YouCompleteMe.git'
 call plug#end()
 
 "=====Key Bindings====="
-" Capitalize previously typed word and resume insertion
-"imap <c-u> <esc>bveUea
-" Capitalize the word whose first letter is under your cursor
-"nmap <c-u> veU
-" Look more into the nonrecursive mapping
+" Capitalization of entire words
+" 1. word just finished typing
+" 2. word who begins under cursor
+inoremap <c-u> <esc>bveUea
+nnoremap <c-u> veU
+
+" Terminal mode keybindings
+" 1. esc to exit entering commands
+
+tnoremap <Esc> <C-\><C-n>
+
+" Other settings 
+set autochdir
