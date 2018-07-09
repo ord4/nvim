@@ -26,7 +26,7 @@ set ignorecase
 set incsearch
 
 "=====Plug-ins====="
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('C:\Users\Orion\AppData\Local\nvim\plugged')
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/terryma/vim-multiple-cursors.git'
 Plug 'https://github.com/junegunn/fzf'
@@ -35,16 +35,18 @@ Plug 'https://github.com/Valloric/YouCompleteMe.git'
 call plug#end()
 
 "=====Key Bindings====="
-" Capitalization of entire words
-" 1. word just finished typing
-" 2. word who begins under cursor
+" Insert mode 
 inoremap <c-u> <esc>bveUea
+inoremap <c-f> ()<space>{<cr><cr>}<esc>bbba
+
+" Normal mode
 nnoremap <c-u> veU
 
-" Terminal mode keybindings
-" 1. esc to exit entering commands
-
+" Terminal mode 
 tnoremap <Esc> <C-\><C-n>
+
 
 " Other settings 
 set autochdir
+set statusline+=%F
+set encoding=utf-8
